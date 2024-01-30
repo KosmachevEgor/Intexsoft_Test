@@ -1,0 +1,30 @@
+body{
+    background-color: #150e17;
+    color: white;
+}
+header {
+    background-color: #2d2d31;
+}
+.post {
+    position: relative;
+    border: 2px solid #5c5f69;
+    border-radius: 25px;
+    padding: 15px 6px 5px 15px;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: #2196F3;
+}
+.grid-element{
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 16px;
+    text-align: center;
+}
+.post-btn{
+    position: absolute;
+    top: 0;
+    right: 5%;
+}
